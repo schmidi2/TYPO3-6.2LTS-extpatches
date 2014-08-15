@@ -22,8 +22,16 @@
 *  This copyright notice MUST APPEAR in all copies of the script!
 ***************************************************************/
 
-if (!class_exists('cms_newContentElementWizardsHook')) {
-	t3lib_div::requireOnce(PATH_typo3 . 'interfaces/interface.cms_newcontentelementwizarditemshook.php');
+if( file_exists(\TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath('backend') . 'Classes/Wizard/NewContentElementWizardHookInterface.php')) {
+	if(!class_exists('NewContentElementWizardHookInterface')) {
+		// use this in TYPO3 6.0 and above
+		require_once \TYPO3\CMS\Core\Utility\ExtensionManagementUtility::extPath('backend') . 'Classes/Wizard/NewContentElementWizardHookInterface.php';
+	}
+} else {
+	if(!class_exists('cms_newContentElementWizardsHook')) {
+		// deprecated since 6.0, removed in 6.2
+		t3lib_div::requireOnce(PATH_typo3 . 'interfaces/interface.cms_newcontentelementwizarditemshook.php');
+	}
 }
 
 class tx_multicolumn_wizardItemsHook implements cms_newContentElementWizardsHook {
