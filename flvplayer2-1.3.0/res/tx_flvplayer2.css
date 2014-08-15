@@ -1,0 +1,18 @@
+div.tx-flvplayer2-pi1 {
+font-size:x-small;
+}
+
+div#flvplayer2_middle {
+text-align:center;
+margin: 1em auto;
+}
+
+div#flvplayer2_left {
+text-align:center;
+margin: 0 auto 0 0;
+}
+
+div#flvplayer2_right {
+text-align:center;
+margin: 0 0 0 auto;
+}

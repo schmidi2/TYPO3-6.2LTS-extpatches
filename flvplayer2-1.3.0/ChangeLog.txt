@@ -1,0 +1,29 @@
+2010-03-03 Jose Antonio Guerra <jaguerra@icti.es>
+	* version 1.3.0 - Upload to TER
+	* Added support for FlowPlayer (3.1)
+	* Upgraded JW Player to version 5
+	* Added “base” configuration (thanks to Sacha Vorbeck).
+	* Added codebase https support (thanks to Guillaume Crico).	
+	* Splash image now is resized to fit the video window
+
+
+2009-07-16 Jose Antonio Guerra <jaguerra@icti.es>
+	* version 1.2.1 - Upload to TER
+	* Now validates XHTML Strict (thanks to Emile Blume from Netcreators)
+	* Improved the “url” TS parameter (thanks to Loek Hilgersom)
+	* Bugfix: Now the “fullscreen” switch works (thanks to Maxim Levicky)
+
+
+2009-03-20 Jose Antonio Guerra <jaguerra@icti.es>
+	* version 1.1 - Upload to TER
+	* Updated JW Player to 4.3.132
+	* Documentation updates with latest features
+
+
+2009-03-17 Raphael Waelterlin <rw@cabag.ch>
+	* pi1: removed menu flashvar (not available for the player)
+	* pi1: added controlbar flashvar
+	* pi1: added image flashvar
+	* pi1: removed unused php code
+	* flex: added image and controlbar
+

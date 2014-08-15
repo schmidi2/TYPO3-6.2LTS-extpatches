@@ -1,0 +1,217 @@
+<T3DataStructure>
+	<meta>
+		<langDisable>1</langDisable>
+	</meta>
+	<sheets>
+		<sDEF>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_def</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<url>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_def.url</label>
+							<config>
+								<type>input</type>
+								<size>40</size>
+							</config>
+						</TCEforms>
+					</url>				
+					<file>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_def.file</label>
+							<config>
+								<type>group</type>
+								<internal_type>file</internal_type>
+								<allowed>flv,mp4,m4v</allowed>
+								<max_size>100000</max_size>
+								<uploadfolder>uploads/tx_flvplayer</uploadfolder>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</file>				
+					<image>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_def.image</label>
+							<config>
+								<type>group</type>
+								<internal_type>file</internal_type>
+								<allowed>jpg,jpeg,gif,png</allowed>
+								<max_size>1000</max_size>
+								<uploadfolder>uploads/tx_flvplayer</uploadfolder>
+								<size>1</size>
+								<maxitems>1</maxitems>
+								<minitems>0</minitems>
+								<show_thumbs>1</show_thumbs>
+							</config>
+						</TCEforms>
+					</image>					
+					<splashImageMode>
+						<TCEforms type="array">
+							<label>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_def.splashImageMode</label>
+							<config type="array">
+								<type>select</type>
+								<items type="array">
+									<numIndex index="0" type="array">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_def.splashImageMode.0</numIndex>
+										<numIndex index="1">resize</numIndex>
+									</numIndex>
+									<numIndex index="1" type="array">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_def.splashImageMode.1</numIndex>
+										<numIndex index="1">resize2max</numIndex>
+									</numIndex>								
+									<numIndex index="2" type="array">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_def.splashImageMode.2</numIndex>
+										<numIndex index="1">crop</numIndex>
+									</numIndex>						
+								</items>
+								<default>0</default>
+							</config>
+						</TCEforms>						
+					</splashImageMode>
+				</el>
+			</ROOT>
+		</sDEF>
+		
+		<sPLAYER>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_player</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<autostart>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_player.autostart</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.LGL.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.LGL.no</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.LGL.yes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</autostart>
+					<fullscreen>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_player.fullscreen</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.LGL.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.LGL.no</numIndex>
+										<numIndex index="1">0</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.LGL.yes</numIndex>
+										<numIndex index="1">1</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</fullscreen>
+					<controlbar>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_player.controlbar</label>
+							<config>
+								<type>select</type>
+								<items>
+									<numIndex index="0">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.LGL.default</numIndex>
+										<numIndex index="1"></numIndex>
+									</numIndex>									
+									<numIndex index="1">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.bottom</numIndex>
+										<numIndex index="1">bottom</numIndex>
+									</numIndex>
+									<numIndex index="2">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.over</numIndex>
+										<numIndex index="1">over</numIndex>
+									</numIndex>
+									<numIndex index="3">
+										<numIndex index="0">LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.none</numIndex>
+										<numIndex index="1">none</numIndex>
+									</numIndex>
+								</items>
+							</config>
+						</TCEforms>
+					</controlbar>
+				</el>
+			</ROOT>
+		</sPLAYER>
+		<sFLASH>
+			<ROOT>
+				<TCEforms>
+					<sheetTitle>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_flash</sheetTitle>
+				</TCEforms>
+				<type>array</type>
+				<el>
+					<version>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_flash.version</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<max>2</max>
+								<checkbox></checkbox>
+								<eval>num</eval>
+							</config>
+						</TCEforms>
+					</version>
+					<width>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_flash.width</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<max>4</max>
+								<checkbox></checkbox>
+								<eval>num</eval>
+							</config>
+						</TCEforms>
+					</width>
+					<height>
+						<TCEforms>
+							<exclude>1</exclude>
+							<label>LLL:EXT:flvplayer2/locallang_db.php:tt_content.flexform_pi1.s_flash.height</label>
+							<config>
+								<type>input</type>
+								<size>5</size>
+								<max>4</max>
+								<checkbox></checkbox>
+								<eval>num</eval>
+							</config>
+						</TCEforms>
+					</height>	
+				</el>
+			</ROOT>
+		</sFLASH>
+	</sheets>
+</T3DataStructure>

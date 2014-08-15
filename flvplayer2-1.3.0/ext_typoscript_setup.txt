@@ -1,0 +1,90 @@
+/***************************************************************
+ * Copyright notice
+ *
+ * (c) 2004 macmade.net
+ * All rights reserved
+ *
+ * This script is part of the TYPO3 project. The TYPO3 project is 
+  * free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * The GNU General Public License can be found at
+ * http://www.gnu.org/copyleft/gpl.html.
+ *
+ * This script is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * This copyright notice MUST APPEAR in all copies of the script!
+ ***************************************************************/
+
+/**
+ * Default TS setup - Extension 'Flash Video Player'
+ *
+ * @author		Jean-David Gadina (macmade@gadlab.net)
+ * @version		1.0
+ */
+
+/**
+ * PI1 object - FLV Player
+ */
+
+plugin.tx_flvplayer_pi1 {
+
+	includeLibs = EXT:flvplayer2/pi1/class.tx_flvplayer2_pi1.php
+	userFunc = tx_flvplayer2_pi1->main
+	
+	// Header width
+	width = {$plugin.tx_flvplayer_pi1.width}
+	
+	// Default swf file
+	height = {$plugin.tx_flvplayer_pi1.height}
+	
+	// Header height
+	flvplayer = {$plugin.tx_flvplayer_pi1.flvplayer}
+
+	// Flash version
+	version = {$plugin.tx_flvplayer_pi1.version}
+
+
+	// Player parameters
+	playerParams {
+		
+		// Allow fullscreen
+		fullScreen = {$plugin.tx_flvplayer_pi1.playerParams.fullScreen}
+		
+		// Auto start
+		autoStart = {$plugin.tx_flvplayer_pi1.playerParams.autoStart}
+		
+		controlbar = {$plugin.tx_flvplayer_pi1.playerParams.controlbar}
+	}
+	
+	useFlowPlayer = {$plugin.tx_flvplayer_pi1.useFlowPlayer}
+	
+	base = {$plugin.tx_flvplayer_pi1.base}
+	
+	// Default CSS styling
+	_CSS_DEFAULT_STYLE (
+		div.tx-flvplayer2-pi1 {
+		font-size:x-small;
+		}
+		
+		div#flvplayer2_middle {
+		text-align:center;
+		margin: 1em auto;
+		}
+		
+		div#flvplayer2_left {
+		text-align:center;
+		margin: 0 auto 0 0;
+		}
+		
+		div#flvplayer2_right {
+		text-align:center;
+		margin: 0 0 0 auto;
+		}
+	)
+}

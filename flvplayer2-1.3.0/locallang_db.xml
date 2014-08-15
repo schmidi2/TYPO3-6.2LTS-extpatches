@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<description></description>
+		<type>database</type>
+		<csh_table></csh_table>
+		<labelContext type="array">
+		</labelContext>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">FLV Player</label>
+			<label index="tt_content.flexform_pi1.s_def">Main</label>
+			<label index="tt_content.flexform_pi1.s_def.file">FLV file</label>
+			<label index="tt_content.flexform_pi1.s_def.image">Splash image</label>
+			<label index="tt_content.flexform_pi1.s_def.splashImageMode">Splash image resize mode</label>
+			<label index="tt_content.flexform_pi1.s_def.splashImageMode.0">Resize</label>
+			<label index="tt_content.flexform_pi1.s_def.splashImageMode.1">Resize to max dimension</label>
+			<label index="tt_content.flexform_pi1.s_def.splashImageMode.2">Crop</label>
+			<label index="tt_content.flexform_pi1.s_def.url">FLV URL</label>
+			<label index="tt_content.flexform_pi1.s_player">Player settings</label>
+			<label index="tt_content.flexform_pi1.s_player.autostart">Auto start</label>
+			<label index="tt_content.flexform_pi1.s_player.fullscreen">Allow fullscreen (JWPlayer only)</label>
+			<label index="tt_content.flexform_pi1.s_flash">Flash settings</label>
+			<label index="tt_content.flexform_pi1.s_flash.version">Version (JWPlayer only)</label>
+			<label index="tt_content.flexform_pi1.s_flash.width">Width</label>
+			<label index="tt_content.flexform_pi1.s_flash.height">Height</label>			
+			<label index="tt_content.flexform_pi1.LGL.default">Default</label>
+			<label index="tt_content.flexform_pi1.LGL.no">No</label>
+			<label index="tt_content.flexform_pi1.LGL.yes">Yes</label>
+			<label index="tt_content.flexform_pi1.s_player.controlbar">Menu (JWPlayer only)</label>
+			<label index="tt_content.flexform_pi1.bottom">Bottom</label>
+			<label index="tt_content.flexform_pi1.over">Over</label>
+			<label index="tt_content.flexform_pi1.none">None</label>
+			<label index="tt_content.flexform_pi1.left">Left</label>
+			<label index="tt_content.flexform_pi1.middle">Middle</label>
+			<label index="tt_content.flexform_pi1.right">Right</label>
+		</languageKey>
+		<languageKey index="fr" type="array">
+			<label index="tt_content.list_type_pi1">Lecteur FLV</label>
+			<label index="tt_content.flexform_pi1.s_def">Gï¿½nï¿½ral</label>
+			<label index="tt_content.flexform_pi1.s_def.file">Fichier FLV</label>
+			<label index="tt_content.flexform_pi1.s_def.image">Image</label>
+			<label index="tt_content.flexform_pi1.s_player">Paramï¿½tres du lecteur</label>
+			<label index="tt_content.flexform_pi1.s_player.autostart">Lecture automatique</label>
+			<label index="tt_content.flexform_pi1.s_player.fullscreen">Permettre la lecture plein ï¿½cran</label>
+			<label index="tt_content.flexform_pi1.s_flash">Paramï¿½tres Flash</label>
+			<label index="tt_content.flexform_pi1.s_flash.version">Version</label>
+			<label index="tt_content.flexform_pi1.s_flash.width">Largeur</label>
+			<label index="tt_content.flexform_pi1.s_flash.height">Hauteur</label>		
+			<label index="tt_content.flexform_pi1.s_flash.align">Align</label>		
+			<label index="tt_content.flexform_pi1.s_flash.description">Description</label>
+			<label index="tt_content.flexform_pi1.s_flash.loop">Boucle</label>
+			<label index="tt_content.flexform_pi1.s_flash.menu">Menu</label>
+			<label index="tt_content.flexform_pi1.s_flash.quality">Qualitï¿½</label>
+			<label index="tt_content.flexform_pi1.s_flash.scale">Redimensionnement</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor">Couleur de fond</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor.wizard">Sï¿½lecteur de couleurs</label>
+			<label index="tt_content.flexform_pi1.s_flash.swliveconnect">SWLiveConnect</label>
+			<label index="tt_content.flexform_pi1.LGL.default">Par dï¿½faut</label>
+			<label index="tt_content.flexform_pi1.LGL.no">Non</label>
+			<label index="tt_content.flexform_pi1.LGL.yes">Oui</label>
+			<label index="tt_content.flexform_pi1.left">Left</label>
+			<label index="tt_content.flexform_pi1.middle">Middle</label>
+			<label index="tt_content.flexform_pi1.right">Right</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="tt_content.list_type_pi1">Reproductor FLV</label>
+			<label index="tt_content.flexform_pi1.s_def">Principal</label>
+			<label index="tt_content.flexform_pi1.s_def.file">Archivo FLV origen</label>
+			<label index="tt_content.flexform_pi1.s_def.url">URL origen de FLV</label>
+			<label index="tt_content.flexform_pi1.s_player">Ajustes del reproductor</label>
+			<label index="tt_content.flexform_pi1.s_player.autostart">Comienzo automático</label>
+			<label index="tt_content.flexform_pi1.s_player.fullscreen">Permitir pantalla completa</label>
+			<label index="tt_content.flexform_pi1.s_flash">Ajustes de Flash</label>
+			<label index="tt_content.flexform_pi1.s_flash.version">Versión</label>
+			<label index="tt_content.flexform_pi1.s_flash.width">Ancho</label>
+			<label index="tt_content.flexform_pi1.s_flash.height">Alto</label>		
+			<label index="tt_content.flexform_pi1.s_flash.align">Align</label>		
+			<label index="tt_content.flexform_pi1.s_flash.description">Description</label>
+			<label index="tt_content.flexform_pi1.s_flash.loop">Repetición</label>
+			<label index="tt_content.flexform_pi1.s_flash.menu">Menú</label>
+			<label index="tt_content.flexform_pi1.s_flash.quality">Calidad</label>
+			<label index="tt_content.flexform_pi1.s_flash.scale">Escalado</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor">Color de fondo</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor.wizard">Selector de color</label>
+			<label index="tt_content.flexform_pi1.s_flash.swliveconnect">SWLiveConnect</label>
+			<label index="tt_content.flexform_pi1.LGL.default">Por defecto</label>
+			<label index="tt_content.flexform_pi1.LGL.no">No</label>
+			<label index="tt_content.flexform_pi1.LGL.yes">Si</label>
+			<label index="tt_content.flexform_pi1.left">Left</label>
+			<label index="tt_content.flexform_pi1.middle">Middle</label>
+			<label index="tt_content.flexform_pi1.right">Right</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.list_type_pi1">FLV Player</label>
+			<label index="tt_content.flexform_pi1.s_def">Main</label>
+			<label index="tt_content.flexform_pi1.s_def.file">FLV Datei</label>
+			<label index="tt_content.flexform_pi1.s_def.image">Bild</label>
+			<label index="tt_content.flexform_pi1.s_def.url">FLV URL</label>
+			<label index="tt_content.flexform_pi1.s_player">Player Einstellungen</label>
+			<label index="tt_content.flexform_pi1.s_player.autostart">Autostart</label>
+			<label index="tt_content.flexform_pi1.s_player.fullscreen">Vollbild erlauben</label>
+			<label index="tt_content.flexform_pi1.s_flash">Flash Einstellungen</label>
+			<label index="tt_content.flexform_pi1.s_flash.version">Version</label>
+			<label index="tt_content.flexform_pi1.s_flash.width">Breite</label>
+			<label index="tt_content.flexform_pi1.s_flash.height">Höhe</label>			
+			<label index="tt_content.flexform_pi1.s_flash.align">Ausrichtung</label>			
+			<label index="tt_content.flexform_pi1.s_flash.description">Beschreibung</label>
+			<label index="tt_content.flexform_pi1.s_flash.loop">Loop</label>
+			<label index="tt_content.flexform_pi1.s_flash.menu">Menü</label>
+			<label index="tt_content.flexform_pi1.s_flash.quality">Qualität</label>
+			<label index="tt_content.flexform_pi1.s_flash.scale">Skalierung</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor">Hintergrundfarbe</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor.wizard">Farbwähler</label>
+			<label index="tt_content.flexform_pi1.s_flash.swliveconnect">SWLiveConnect</label>
+			<label index="tt_content.flexform_pi1.LGL.default">Default</label>
+			<label index="tt_content.flexform_pi1.LGL.no">Nein</label>
+			<label index="tt_content.flexform_pi1.LGL.yes">Ja</label>
+			<label index="tt_content.flexform_pi1.s_player.controlbar">Menü</label>
+			<label index="tt_content.flexform_pi1.bottom">Unten</label>
+			<label index="tt_content.flexform_pi1.over">Oben</label>
+			<label index="tt_content.flexform_pi1.none">Kein</label>
+			<label index="tt_content.flexform_pi1.left">Links</label>
+			<label index="tt_content.flexform_pi1.middle">Mitte</label>
+			<label index="tt_content.flexform_pi1.right">Rechts</label>
+		</languageKey>
+	</data>
+	<orig_hash type="array">
+		<languageKey index="fr" type="array">
+			<label index="tt_content.list_type_pi1" type="integer">112104077</label>
+			<label index="tt_content.flexform_pi1.s_def" type="integer">167954490</label>
+			<label index="tt_content.flexform_pi1.s_def.file" type="integer">48913993</label>
+			<label index="tt_content.flexform_pi1.s_player" type="integer">164865490</label>
+			<label index="tt_content.flexform_pi1.s_player.autostart" type="integer">1127671</label>
+			<label index="tt_content.flexform_pi1.s_player.fullscreen" type="integer">219897134</label>
+			<label index="tt_content.flexform_pi1.s_flash" type="integer">31268702</label>
+			<label index="tt_content.flexform_pi1.s_flash.version" type="integer">55274711</label>
+			<label index="tt_content.flexform_pi1.s_flash.width" type="integer">53040229</label>
+			<label index="tt_content.flexform_pi1.s_flash.height" type="integer">250375243</label>
+			<label index="tt_content.flexform_pi1.s_flash.loop" type="integer">144538384</label>
+			<label index="tt_content.flexform_pi1.s_flash.menu" type="integer">190927890</label>
+			<label index="tt_content.flexform_pi1.s_flash.quality" type="integer">91294027</label>
+			<label index="tt_content.flexform_pi1.s_flash.scale" type="integer">140147925</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor" type="integer">121896421</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor.wizard" type="integer">201852657</label>
+			<label index="tt_content.flexform_pi1.s_flash.swliveconnect" type="integer">235301558</label>
+			<label index="tt_content.flexform_pi1.LGL.default" type="integer">128029197</label>
+			<label index="tt_content.flexform_pi1.LGL.no" type="integer">196073266</label>
+			<label index="tt_content.flexform_pi1.LGL.yes" type="integer">154974727</label>
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="tt_content.list_type_pi1" type="integer">112104077</label>
+			<label index="tt_content.flexform_pi1.s_def" type="integer">167954490</label>
+			<label index="tt_content.flexform_pi1.s_def.file" type="integer">48913993</label>
+			<label index="tt_content.flexform_pi1.s_def.url" type="integer">186375225</label>
+			<label index="tt_content.flexform_pi1.s_player" type="integer">164865490</label>
+			<label index="tt_content.flexform_pi1.s_player.autostart" type="integer">1127671</label>
+			<label index="tt_content.flexform_pi1.s_player.fullscreen" type="integer">219897134</label>
+			<label index="tt_content.flexform_pi1.s_flash" type="integer">31268702</label>
+			<label index="tt_content.flexform_pi1.s_flash.version" type="integer">55274711</label>
+			<label index="tt_content.flexform_pi1.s_flash.width" type="integer">53040229</label>
+			<label index="tt_content.flexform_pi1.s_flash.height" type="integer">250375243</label>
+			<label index="tt_content.flexform_pi1.s_flash.loop" type="integer">144538384</label>
+			<label index="tt_content.flexform_pi1.s_flash.menu" type="integer">190927890</label>
+			<label index="tt_content.flexform_pi1.s_flash.quality" type="integer">91294027</label>
+			<label index="tt_content.flexform_pi1.s_flash.scale" type="integer">140147925</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor" type="integer">121896421</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor.wizard" type="integer">201852657</label>
+			<label index="tt_content.flexform_pi1.s_flash.swliveconnect" type="integer">235301558</label>
+			<label index="tt_content.flexform_pi1.LGL.default" type="integer">128029197</label>
+			<label index="tt_content.flexform_pi1.LGL.no" type="integer">196073266</label>
+			<label index="tt_content.flexform_pi1.LGL.yes" type="integer">154974727</label>
+		</languageKey>		
+	</orig_hash>
+	<orig_text type="array">
+		<languageKey index="fr" type="array">
+		</languageKey>
+		<languageKey index="es" type="array">
+			<label index="tt_content.list_type_pi1">FLV Player</label>
+			<label index="tt_content.flexform_pi1.s_def">Main</label>
+			<label index="tt_content.flexform_pi1.s_def.file">FLV file</label>
+			<label index="tt_content.flexform_pi1.s_def.url">FLV URL</label>
+			<label index="tt_content.flexform_pi1.s_player">Player settings</label>
+			<label index="tt_content.flexform_pi1.s_player.autostart">Auto start</label>
+			<label index="tt_content.flexform_pi1.s_player.fullscreen">Allow fullscreen</label>
+			<label index="tt_content.flexform_pi1.s_flash">Flash settings</label>
+			<label index="tt_content.flexform_pi1.s_flash.version">Version</label>
+			<label index="tt_content.flexform_pi1.s_flash.width">Width</label>
+			<label index="tt_content.flexform_pi1.s_flash.height">Height</label>
+			<label index="tt_content.flexform_pi1.s_flash.loop">Loop</label>
+			<label index="tt_content.flexform_pi1.s_flash.menu">Menu</label>
+			<label index="tt_content.flexform_pi1.s_flash.quality">Quality</label>
+			<label index="tt_content.flexform_pi1.s_flash.scale">Scale</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor">BGColor</label>
+			<label index="tt_content.flexform_pi1.s_flash.bgcolor.wizard">Color picker</label>
+			<label index="tt_content.flexform_pi1.s_flash.swliveconnect">SWLiveConnect</label>
+			<label index="tt_content.flexform_pi1.LGL.default">Default</label>
+			<label index="tt_content.flexform_pi1.LGL.no">No</label>
+			<label index="tt_content.flexform_pi1.LGL.yes">Yes</label>
+		</languageKey>		
+	</orig_text>
+
+</T3locallang>

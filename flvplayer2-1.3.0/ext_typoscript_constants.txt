@@ -1,0 +1,62 @@
+/***************************************************************
+ * Copyright notice
+ *
+ * (c) 2004 macmade.net
+ * All rights reserved
+ *
+ * This script is part of the TYPO3 project. The TYPO3 project is 
+  * free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by
+ * the Free Software Foundation; either version 2 of the License, or
+ * (at your option) any later version.
+ *
+ * The GNU General Public License can be found at
+ * http://www.gnu.org/copyleft/gpl.html.
+ *
+ * This script is distributed in the hope that it will be useful,
+ * but WITHOUT ANY WARRANTY; without even the implied warranty of
+ * MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ * GNU General Public License for more details.
+ *
+ * This copyright notice MUST APPEAR in all copies of the script!
+ ***************************************************************/
+
+/**
+ * Default TS constants - Extension 'Flash Video Player'
+ *
+ * @author		Jean-David Gadina (macmade@gadlab.net)
+ * @version		1.0
+ */
+
+/**
+ * PI1 object - FLV Player
+ */
+
+plugin.tx_flvplayer_pi1 {
+
+	# cat=flvplayer2/enable/1; type=boolean; label=Use FlowPlayer (GPL) instead of JWPlayer
+	useFlowPlayer = 0
+	
+	# cat=flvplayer2/enable/4; type=boolean; label=Auto start: Automatically start playing songs when the player is loaded.
+	playerParams.autoStart = 1
+	
+	# cat=flvplayer2/enable/5; type=boolean; label=Fullscreen: Allow fullscreen play.
+	playerParams.fullScreen = 1
+
+	# cat=flvplayer2/enable/6; type=string; label=Control Bar position
+	playerParams.controlbar = bottom
+
+	
+	# cat=flvplayer2/dims/0; type=int+; label=Width: Control the width of the header (used for both the swf file and the replacement picture).
+	width = 600
+	
+	# cat=flvplayer2/dims/1; type=int+; label=Height: Control the height of the header (used for both the swf file and the replacement picture).
+	height = 450
+	
+	# cat=flvplayer2//0; type=int+; label=Flash version: The version of the Flash plugin required to view the headers.
+	version = 9
+	
+	# cat=flvplayer2//0; type=string; label=Override base URL for JWPlayer inclusion (useful when TYPO3_REQUEST_DIR is not equal to the domain the visitor of the website)
+	base = 
+
+}
