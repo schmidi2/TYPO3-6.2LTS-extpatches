@@ -89,10 +89,8 @@
 		 * @return		The content of the locallang file
 		 */
 		function includeLocalLang() {
-			
-		$llFile = t3lib_extMgm::extPath('flvplayer2').'locallang.xml';
-		$LOCAL_LANG = t3lib_div::readLLXMLfile($llFile, $GLOBALS['LANG']->lang);
-		return $LOCAL_LANG;
+			$LOCAL_LANG = \TYPO3\CMS\Core\Utility\GeneralUtility::readLLfile($llFile, $GLOBALS['LANG']->lang);
+			return $LOCAL_LANG;
 		}
 	}
 	
