@@ -1,0 +1,21 @@
+plugin.tx_shcoinslider_pi1{
+
+    sliderwidth = 565
+    sliderheight = 290
+    squeresperwidth = 7
+    squeresperheight = 5
+    delayimages = 3000
+    delaysquares = 30
+
+	_CSS_DEFAULT_STYLE (
+		.tx-shcoinslider-pi1 .coin-slider { overflow: hidden; zoom: 1; position: relative; }
+		.tx-shcoinslider-pi1 .coin-slider a{ text-decoration: none; outline: none; border: none; }
+		.tx-shcoinslider-pi1 .cs-buttons { font-size: 0px; padding: 10px; float: left; }
+		.tx-shcoinslider-pi1 .cs-buttons a { margin-left: 5px; height: 10px; width: 10px; float: left; border: 1px solid #B8C4CF; color: #B8C4CF; text-indent: -1000px; }
+		.tx-shcoinslider-pi1 .cs-active { background-color: #B8C4CF; color: #FFFFFF; }
+		.tx-shcoinslider-pi1 .cs-title { width: 100%; background-color: #000000; color: #FFFFFF; }
+		.tx-shcoinslider-pi1 .cs-title b { padding: 10px; display: block; }
+		.tx-shcoinslider-pi1 .cs-prev,
+		.tx-shcoinslider-pi1 .cs-next { background-color: #000000; color: #FFFFFF; padding: 0px 10px; }
+	)
+}

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>database</type>
+		<description>Language labels for database tables/fields belonging to extension 'sh_coinslider'</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="tt_content.list_type_pi1">jQuery Coin Slider</label>
+			<label index="tx_shcoinslider_images">Images</label>
+			<label index="tx_shcoinslider_images.title">Title</label>
+			<label index="tx_shcoinslider_images.description">Description</label>
+			<label index="tx_shcoinslider_images.image">Image</label>
+			<label index="tx_shcoinslider_images.link">Link</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="tt_content.list_type_pi1">jQuery Coin Slider</label>
+			<label index="tx_shcoinslider_images">Bilder</label>
+			<label index="tx_shcoinslider_images.title">Titel</label>
+			<label index="tx_shcoinslider_images.description">Beschreibung</label>
+			<label index="tx_shcoinslider_images.image">Bild</label>
+			<label index="tx_shcoinslider_images.link">Link</label>
+		</languageKey>
+	</data>
+</T3locallang>

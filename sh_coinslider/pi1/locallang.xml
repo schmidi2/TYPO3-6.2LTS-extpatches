@@ -1,0 +1,39 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_shcoinslider_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="sliderwidth">Slider Width (Pixel)</label>
+			<label index="sliderheight">Slider Height (Pixel)</label>
+			<label index="squeresperwidth">Squares per width</label>
+			<label index="squaresperheight">Squares per height</label>
+			<label index="delay.images">Delay between images (ms)</label>
+			<label index="delay.squares">Delay between squares (ms)</label>
+			<label index="navibuttons">Prev next and buttons</label>
+			<label index="hide">Hide</label>
+			<label index="show">Show</label>
+			<label index="effect">Effect</label>
+			<label index="images">Images</label>
+			<label index="configuration">Configuration</label>
+			<label index="imagerecords">Image records</label>
+		</languageKey>
+		<languageKey index="de" type="array">
+			<label index="sliderwidth">Slider Breite (Pixel)</label>
+			<label index="sliderheight">Slider Höhe (Pixel)</label>
+			<label index="squeresperwidth">Quadrate pro Breite</label>
+			<label index="squaresperheight">Quadrate pro Höhe</label>
+			<label index="delay.images">Verzögerung zwischen Bildern (ms)</label>
+			<label index="delay.squares">Verzögerung zwischen Quadraten (ms)</label>
+			<label index="navibuttons">Vorwärts/Zurück-Buttons</label>
+			<label index="hide">Ausblenden</label>
+			<label index="show">Anzeigen</label>
+			<label index="effect">Effekt</label>
+			<label index="images">Bilder</label>
+			<label index="configuration">Konfiguration</label>
+			<label index="imagerecords">Bilddatensätze</label>
+		</languageKey>
+	</data>
+</T3locallang>
