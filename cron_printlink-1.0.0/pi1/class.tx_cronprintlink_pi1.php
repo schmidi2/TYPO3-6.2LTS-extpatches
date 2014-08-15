@@ -30,7 +30,6 @@
  * @author	Ernesto Baschny <ernst@cron-it.de>
  */
 
-require_once(PATH_tslib."class.tslib_pibase.php");
 require_once(t3lib_extMgm::extPath('cron_printlink') . 'class.tx_cronprintlink_utils.php');
 
 class tx_cronprintlink_pi1 extends tslib_pibase {
