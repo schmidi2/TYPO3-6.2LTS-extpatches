@@ -1,0 +1,13 @@
+plugin.tx_cronprintlink >
+plugin.tx_cronprintlink {
+    # cat=plugin.printlink/links/a; type=boolean; label=POST-vars: Include the POST variables in the link to the print version?
+  includePostVars = 0
+    # cat=plugin.printlink/links/b; type=string; label=Target: The target for the print window
+  target = _blank
+    # cat=plugin.printlink/links/c; type=boolean; label=Popup: Make a javascript popup window?
+  popup = 1
+    # cat=plugin.printlink/links/d; type=string; label=Popup Parameter: If popup, the parameters to the new window
+  popupWindowparams = resizable=yes,toolbar=no,scrollbars=yes,menubar=yes,width=600,height=500
+    # cat=plugin.printlink/links/a1; type=string; label=Ignore POST vars: Comma separated list of variables to skip from POST variables when generating the print version (security)
+  ignorePostVars = pass,user,logintype
+}

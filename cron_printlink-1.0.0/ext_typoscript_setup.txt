@@ -1,0 +1,16 @@
+plugin.tx_cronprintlink_pi1 {
+  include_post_vars = {$plugin.tx_cronprintlink.includePostVars}
+  ignore_post_vars = {$plugin.tx_cronprintlink.ignorePostVars}
+  target = {$plugin.tx_cronprintlink.target}
+  popup = {$plugin.tx_cronprintlink.popup}
+  popupWindowname = print
+  popupWindowparams = {$plugin.tx_cronprintlink.popupWindowparams}
+  _LOCAL_LANG {
+  }
+}
+
+plugin.tx_cronprintlink_pi2 {
+
+  _LOCAL_LANG {
+  }
+}
