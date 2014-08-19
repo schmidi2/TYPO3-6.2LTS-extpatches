@@ -92,13 +92,13 @@ class tx_steverrsscontent_pi1 extends tslib_pibase {
                         $r2 = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($q2);
 
          // PROCESS BODY TEXT - REMOVE TAGS
-                            $r['title'] = ereg_replace('</?[^>]*>','',$r['title']);
+                            $r['title'] = strip_tags($r['title']);
                             $r['title'] = htmlspecialchars_decode($r['title']);
                             $r['title'] = str_replace(' ',' ',$r['title']);
                             $r['title'] = str_replace('&',' ',$r['title']);
                             $r['title'] = str_replace("'",' ',$r['title']);
                                        
-                            $r2['parent_title'] = ereg_replace('</?[^>]*>','',$r2['parent_title']);
+                            $r2['parent_title'] = strip_tags($r2['parent_title']);
                             $r2['parent_title'] = htmlspecialchars_decode($r2['parent_title']);
                             $r2['parent_title'] = str_replace(' ',' ',$r2['parent_title']);
                             $r2['parent_title'] = str_replace('&',' ',$r2['parent_title']);
@@ -110,7 +110,7 @@ class tx_steverrsscontent_pi1 extends tslib_pibase {
                             $q3 = $GLOBALS['TYPO3_DB']->exec_SELECTquery('bodytext','tt_content','pid='. $r[uid].' AND deleted=0 AND hidden=0 AND bodytext != ""','','sorting',1);
                             while ($r3 = $GLOBALS['TYPO3_DB']->sql_fetch_assoc($q3)) {
                                     $r['abstract']=$r3['bodytext'];
-                                    $r['abstract'] = ereg_replace('</?[^>]*>','',$r['abstract']);
+                                    $r['abstract'] = strip_tags($r['abstract']);
                                     $r['abstract'] = htmlspecialchars_decode($r['abstract']);
                                     $r['abstract'] = str_replace(' ',' ',$r['abstract']);
                                     $r['abstract'] = str_replace('&',' ',$r['abstract']);
