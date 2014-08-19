@@ -1,0 +1,10 @@
+#Setup
+plugin.tx_steverrsscontent_pi1 {
+url = http://thebegavalley.com/
+title = TheBegaValley.com Recent Updates
+desc = TheBegaValley.com Recent Updates
+language = en
+copy = copyleft
+category = blog
+rssfile = recentupdates.xml
+}
