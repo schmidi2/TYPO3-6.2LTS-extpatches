@@ -28,7 +28,7 @@
  */
 
 
-require_once(PATH_tslib.'class.tslib_pibase.php');
+
 
 class tx_steverrsscontent_pi1 extends tslib_pibase {
         var $prefixId = 'tx_steverrsscontent_pi1';            // Same as class name
