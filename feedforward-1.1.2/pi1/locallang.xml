@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<T3locallang>
+	<meta type="array">
+		<type>module</type>
+		<description>Language labels for plugin &quot;tx_feedforward_pi1&quot;</description>
+	</meta>
+	<data type="array">
+		<languageKey index="default" type="array">
+			<label index="general_tab">General</label>
+			<label index="publishing_tab">Publishing</label>
+			<label index="style_tab">Style</label>
+			<label index="feedurls">URL's to RSS feeds</label>
+			<label index="maxitems">Max items to display</label>
+			<label index="itemlength">Max length per item</label>
+			<label index="length_unit">Length mode</label>
+			<label index="unit_words">Words</label>
+			<label index="unit_chars">Characters</label>
+			<label index="parsepref">Parsing preferences</label>
+			<label index="parsedesc">Parse description as content (if available)</label>
+			<label index="parsece">Parse content:encoded as content (if available)</label>
+			<label index="link_title">Link title to article</label>
+			<label index="titledate">Show date in title</label>
+			<label index="nodate">No date in title</label>
+			<label index="dateafter">Date after title (title (date))</label>
+			<label index="datebefore">Date before title (date, title)</label>
+			<label index="date_format">Date format (see php date() function)</label>
+			<label index="show_subtitle">Show subtitle</label>
+			<label index="suppress_date_subtitle">Suppress date in subtitle</label>
+			<label index="suppress_author_subtitle">Suppress author in subtitle</label>
+			<label index="suppress_site_subtitle">Suppress site in subtitle</label>
+			<label index="show_content">Show content</label>
+			<label index="show_readmore">Show "Read more"</label>
+			<label index="header_style">Header style</label>
+			<label index="subtitle_style">Subtitle style</label>
+			<label index="body_style">Body paragraph style</label>
+			<label index="readmore_style">"Read more" style</label>
+			<label index="bg_uneven">Background color uneven rows</label>
+			<label index="bg_even">Background color even rows</label>
+			<label index="bg_uneven_click">Click to select a background color for uneven rows</label>
+			<label index="bg_even_click">Click to select a background color for even rows</label>
+			<label index="fg_uneven">Text color uneven rows</label>
+			<label index="fg_even">Text color even rows</label>
+			<label index="fg_uneven_click">Click to select a text color for uneven rows</label>
+			<label index="fg_even_click">Click to select a text color for even rows</label>
+			<label index="published_text">Text for "published" in subtitle</label>
+			<label index="by_text">Text for "by" author</label>
+			<label index="on_text">Text for "on" date</label>
+			<label index="at_text">Text for "at" site</label>
+			<label index="readmore_text">Text for "read more" link</label>
+		</languageKey>
+		<languageKey index="nl" type="array">
+			<label index="general_tab">Algemeen</label>
+			<label index="publishing_tab">Publicatie</label>
+			<label index="style_tab">Stijlkenmerken</label>
+			<label index="feedurls">URL's naar RSS feeds</label>
+			<label index="maxitems">Max weer te geven berichten</label>
+			<label index="itemlength">Max lengte per bericht</label>
+			<label index="length_unit">Lengte uitgedrukt in</label>
+			<label index="unit_words">Woorden</label>
+			<label index="unit_chars">Karakters</label>
+			<label index="parsepref">Parser voorkeuren</label>
+			<label index="parsedesc">Parse "description" als inhoud (indien beschikbaar)</label>
+			<label index="parsece">Parse "content:encoded" als inhoud (indien beschikbaar)</label>
+			<label index="link_title">Link titel aan artikel</label>
+			<label index="titledate">Toon datum in titel</label>
+			<label index="nodate">Geen datum in titel</label>
+			<label index="dateafter">Datum achter titel (titel (datum))</label>
+			<label index="datebefore">Datum voor titel (datum, titel)</label>
+			<label index="date_format">Datum formaat (zie php date() functie)</label>
+			<label index="show_subtitle">Laat subtitle zien</label>
+			<label index="suppress_date_subtitle">Onderdruk datum in subtitle</label>
+			<label index="suppress_author_subtitle">Onderdruk auteur in subtitle</label>
+			<label index="suppress_site_subtitle">Onderdruk site in subtitle</label>
+			<label index="show_content">Laat inhoud zien</label>
+			<label index="show_readmore">Laat "Lees meer" zien</label>
+			<label index="header_style">Header stijl</label>
+			<label index="subtitle_style">Subtitle stijl</label>
+			<label index="body_style">Body paragraph stijl</label>
+			<label index="readmore_style">"Read more" stijl</label>
+			<label index="bg_uneven">Achtergrond kleur oneven rijen</label>
+			<label index="bg_even">Achtergrond kleur even rijen</label>
+			<label index="bg_uneven_click">Klik om een achtergrondkleur voor oneven rijen te selecteren</label>
+			<label index="bg_even_click">Klik om een achtergrondkleur voor even rijen te selecteren</label>
+			<label index="fg_uneven">Tekst kleur oneven rijen</label>
+			<label index="fg_even">Tekst kleur even rijen</label>
+			<label index="fg_uneven_click">Klik om een tekstkleur voor oneven rijen te selecteren</label>
+			<label index="fg_even_click">Klik om een tekstkleur voor even rijen te selecteren</label>
+			<label index="published_text">Tekst voor "published" in subtitle</label>
+			<label index="by_text">Tekst voor "by" auteur</label>
+			<label index="on_text">Tekst voor "on" datum</label>
+			<label index="at_text">Tekst voor "at" site</label>
+			<label index="readmore_text">Tekst voor "read more" link</label>
+		</languageKey>
+	</data>
+</T3locallang>
