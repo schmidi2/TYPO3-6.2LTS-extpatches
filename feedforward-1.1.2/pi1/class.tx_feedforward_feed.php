@@ -64,7 +64,7 @@ class tx_feedforward_feed {
 			$this->setOptions($addr);
 			$this->feedBody = curl_exec($this->session);
 			$this->feedContentType = curl_getinfo($this->session, CURLINFO_CONTENT_TYPE);
-			$this->feedSize = round(strlen($this->session)/1024,1);
+			$this->feedSize = round(curl_getinfo($this->session, CURLINFO_SIZE_DOWNLOAD)/1024,1);
 			if ((strlen($this->feedBody) == 0) or ($this->feedContentType == null)) {
 				$this->setErrorMessage("No feed available.");
 			}
